@@ -144,20 +144,6 @@ Subject: 🚨 INTRUDER ALERT — 2026-05-17 10:30:45
 
 With the **captured photo attached**.
 
----
-
-## 🔧 Troubleshooting
-
-| Problem | Fix |
-|---------|-----|
-| `Authentication failed` | Check App Password is correct, not regular password |
-| `Connection refused` | Make sure 2-Step Verification is ON |
-| Email goes to spam | Mark it "Not Spam" once — won't happen again |
-| Too many emails | Increase `COOLDOWN` to `60` seconds |
-| No motion detected | Decrease `SENSITIVITY` to `1000` |
-| Camera not found | Run `ls /dev/video*` to confirm camera index |
-
----
 
 ## 📦 Dependencies
 
@@ -168,18 +154,7 @@ opencv-python   # install via: pip3 install opencv-python --break-system-package
 
 ---
 
-## 🔒 Security Notes
 
-- **Never commit real credentials** — the `.gitignore` excludes them by default
-- Use Gmail App Passwords, not your main Gmail password
-- The alert images are stored locally at `/home/pi/alert_*.jpg` (last 5 kept)
 
----
 
-## 📄 License
 
-MIT License — free to use, modify, and share.
-
----
-
-> Built with ❤️ on a Raspberry Pi Zero 2W
