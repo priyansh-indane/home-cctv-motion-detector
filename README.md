@@ -1,1 +1,0 @@
-# home-cctv-motion-detector
